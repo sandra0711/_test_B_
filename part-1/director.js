@@ -3,3 +3,6 @@ class Director {
     this.name = args.name || '';
   }
 }
+
+
+module.exports = {Director}

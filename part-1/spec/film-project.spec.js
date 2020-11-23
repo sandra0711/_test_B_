@@ -1,3 +1,7 @@
+const { FilmProject } = require('../film-project');
+const { Director } = require('../director');
+const {Actor} = require('../actor');
+
 describe("main", () => {
     let filmProject;
     let director;

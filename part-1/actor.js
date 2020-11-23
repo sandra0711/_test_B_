@@ -5,3 +5,7 @@ class Actor {
     this.salary = args.salary || 0;
   }
 }
+
+
+
+module.exports = { Actor };
