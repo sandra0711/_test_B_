@@ -1,0 +1,30 @@
+{
+  "name": "assessment-1b",
+  "version": "1.0.0",
+  "description": "Во время экзамена ты можешь использовать онлайн-ресурсы, заметки и даже просить инструкторов о помощи, если что-нибудь непонятно в формулировке задания. Единственное, что ты не можешь делать - это спрашивать других студентов.",
+  "main": "index.js",
+  "scripts": {
+    "test-part-1": "jest part-1/spec/*[sS]pec.js -i",
+    "test-part-2": "jest part-2/spec/*[sS]pec.js -i",
+    "test-part-3": "jest part-3/spec/*[sS]pec.js -i",
+    "test": "npm run test-part-1 && npm run test-part-2 && npm run test-part-3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elbrus-Bootcamp/assessment-1b.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elbrus-Bootcamp/assessment-1b/issues"
+  },
+  "homepage": "https://github.com/Elbrus-Bootcamp/assessment-1b#readme",
+ "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.0",
+    "jest": "^26.6.1"
+  }
+}
